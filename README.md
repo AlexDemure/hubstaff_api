@@ -13,7 +13,7 @@
 
 ##### Основной ресурс для работы  https://developer.hubstaff.com/
 ## Добавления приложения в HubStaff
-- Создайте приложение в HubStaff <br>
+- Создайте приложения в HubStaff <br>
 https://developer.hubstaff.com/apps *>>* New App <br>
 Важно **homepage_url и redirect_uris** должны быть домены https если разрабатываете локально используйте **ngrok**
 Карточка приложения после создания:
@@ -33,7 +33,7 @@ REDIRECT URLS https://41095d8af8a2.ngrok.io/webhook/login
 - Скопируйте и вставьте значения CLIENT_ID и CLIENT_SECRET в ваше приложение.
 
 ## OAuth авторизация
-####OAuth авторизация происходит следующим образом:
+#### OAuth авторизация происходит следующим образом:
 ![GitHub Logo](oauth.png)
 ### Воспроизведение процесса кодом
 - Генерирование ссылки на получение Code
